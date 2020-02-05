@@ -1,0 +1,81 @@
+.ecomshopcard{
+  clear: both;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0;
+
+  width: 100%;
+}
+
+.ecomshopcard img{
+  position: relative;
+  color: honeydew;
+width: 100%;
+height: 200px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+-webkit-filter: brightness(70%);
+}
+
+
+.ecomshopcard img:hover{
+  position: relative;
+  color: honeydew;
+  -webkit-filter: brightness(80%);
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+
+}
+
+.shop-btn{
+  background-color: #3C3C47;
+  border-radius: 5px;
+  padding: 5px;
+  width: 45%;
+  color: white;
+  border: #3C3C47;
+}
+
+.ecommerce-card{
+  border: 1px solid #bfbfbf;
+    border-radius: 5px 5px 0px 0px;
+}
+.pricing{
+  border: 1px solid white;
+  top: 10px;
+  position: absolute;
+  left: 25px;
+  text-align: center;
+  padding: 5px;
+}
+
+.category{
+  top: 165px;
+  position: absolute;
+  left: 25px;
+  text-align: center;
+  padding: 5px;
+}
+
+.category h4{
+  color: white;
+  text-shadow: 2px 2px 14px;
+}
+
+.otherdetails{
+  text-align: left;
+  padding: 15px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #bfbfbf;
+  background-color: white;
+  display: grid;
+}
+
+.otherdetails h3{
+  font-size: 18px;
+}

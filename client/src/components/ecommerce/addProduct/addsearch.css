@@ -1,0 +1,37 @@
+.addsearchBox{
+margin-top: 10px;
+margin-left: 10px;
+border: 1px solid black;
+padding: 10px;
+text-align: center;
+text-align: left;
+}
+
+.finsearch{
+  color: white;
+  background-color: rgb(55, 169, 155);
+  border-radius: 10px !important;
+  width: 100%;
+  height: 40px;
+
+}
+
+
+.productsscroll{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100%;
+  height: 240px;
+  
+}
+
+.productsscroll span{
+  display: block;
+  padding: 3PX;
+}
+
+.productsscroll span ::before{
+  content: attr(data-text);
+  background: black;
+  padding: 1px 8px;
+}

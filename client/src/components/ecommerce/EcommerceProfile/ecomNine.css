@@ -1,0 +1,115 @@
+.sellerstorecard {
+    background-color: #D3D3D3;
+    border: 2px solid 	#D3D3D3;
+    border-radius: 10px 10px 0 0 !important;
+    padding: 10px;
+
+}
+
+.sellercardopacity{
+        border-radius: 10px !important;
+        -webkit-box-shadow: 5px 10px whitesmoke;
+        box-shadow: 1px 1px 13px -6px;
+        width: fit-content;
+        margin-bottom: 20px;
+        position: relative;
+        
+    }
+
+.overlay1 {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.sellercardopacity:hover .overlay1{
+  opacity: 0.3;
+}
+
+.sellercardopacity:hover .middle{
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+  /* .button {
+    position: absolute;
+    width: 250px;
+    left: 0;
+    top: 100px;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: opacity .35s ease;
+    -o-transition: opacity .35s ease;
+    transition: opacity .35s ease;
+  }
+  
+  .button a {
+    width: 100%;
+    text-align: center;
+    color: #37a99b;
+    border: solid 5px #37a99b; */
+    /* border-radius: 50px !important;
+    z-index: 1;
+    font-size: large;
+    background: white;
+  } */
+  
+  .sellercardopacity:hover .button {
+    opacity: 1;
+  }
+
+  
+.sellercardopacity img{
+        height: auto;
+        border-radius: 5px !important;
+}
+
+.sellercardopacity p{
+    color: rgb(55, 169, 155);
+    text-align: left;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    margin-top: -15px;
+}
+
+
+.ant-rate {
+    font-size: 14px;
+    font-variant: tabular-nums;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum';
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.65);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: unset;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 15px;
+    display: inline-block;
+    color: orange;
+    outline: none;
+    margin-left: 15px;
+}

@@ -1,0 +1,79 @@
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4) {
+    .descriptionright{
+      text-align: left;
+      padding: 5px;
+    }
+    .descriptionright p{
+      margin-top: -10px;
+      text-align: left;
+    }
+}
+
+/* Portrait */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: portrait) {
+    .descriptionright{
+      text-align: left;
+      padding: 5px;
+    }
+    .descriptionright p{
+      margin-top: -10px;
+      text-align: left;
+    }
+}
+
+/* Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 4)
+  and (orientation: landscape)
+  {
+    .descriptionright{
+      text-align: left;
+      padding: 5px;
+    }
+    .descriptionright p{
+      margin-top: -10px;
+      text-align: left;
+    }
+}
+
+  /*-----laptop screens*/
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .descriptionright{
+      text-align: right;
+      padding: 5px;
+    }
+    .descriptionright p{
+      margin-top: -10px;
+      text-align: right;
+    }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) {
+    .descriptionright{
+      text-align: right;
+      padding: 5px;
+    }
+    .descriptionright p{
+      margin-top: -10px;
+      text-align: right;
+    }
+}

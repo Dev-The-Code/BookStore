@@ -1,0 +1,40 @@
+ol {
+    margin-top: -10px;
+    margin-bottom: 1em;
+    margin-left: 18px;
+    padding: 0;
+    line-height: initial;
+}
+
+.vl {
+    border-left: 1px solid black;
+    height: 400px;
+}
+
+
+.filterdivider{
+    display: block;
+    border: 0;
+    border-top: 1px solid #bfbfbf;
+    /* margin: 1em 0; */
+    /* padding: 0; */
+    width: 98%;
+    border-top-width: 2px;
+}
+
+.ant-checkbox-wrapper {
+    font-size: 14px;
+    font-variant: tabular-nums;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum';
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.65);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 16px !important;
+    padding: 0;
+    list-style: none;
+    line-height: unset;
+    cursor: pointer;
+    display: inline-block;
+}

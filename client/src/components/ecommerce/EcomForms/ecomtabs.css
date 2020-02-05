@@ -1,0 +1,85 @@
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+.tab .nav-tabs{
+    border-bottom: 0 none;
+    background: transparent;
+}
+.tab .nav-tabs li a{
+    font-size: 16px;
+    color: #333;
+    background: transparent;
+    border: 2px solid #37A99B;
+    padding: 10px 45px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 12px;
+}
+.tab .nav-tabs li.active a{
+    border: 0 none;
+    background: #37A99B;
+    color: #fff;
+}
+.tab .nav-tabs li.active a:after{
+    content: "";
+    position: absolute;
+    left: 45%;
+    bottom: -14px;
+    border: 7px solid transparent;
+    border-top: 7px solid #37A99B;
+}
+.tab .tab-content{
+    padding: 12px;
+    font-size: 14px;
+    color: #5a5c5d;
+    line-height: 24px;
+    margin-top: 20px;
+    background: #fff;
+    border-bottom: 3px solid #fa6e6f;
+}
+@media only screen and (max-width: 480px) {
+    .tab .nav-tabs li{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .tab .nav-tabs li a{
+        border: 1px solid #d3d3d3;
+    }
+    .tab .nav-tabs li.active a:after{
+        border:none;
+    }
+}
+
+#tabs {
+	overflow:hidden;
+    white-space: nowrap;
+    z-index:-1;
+    position:static;
+}
+
+#tabs>li {
+   	float:none;
+    display:inline-block;
+}
+
+.arrow {
+    padding:10px;
+    position:absolute;
+    background-color:#fff;
+    z-index:2
+}
+
+#leftArr {
+  	left:0;
+}
+
+#rightArr {
+  	right:0;
+}
+
+.disableTabs{
+    opacity: 0.5;
+    color: #fa6e6f;
+    cursor: not-allowed;
+}

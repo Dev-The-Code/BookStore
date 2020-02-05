@@ -1,0 +1,95 @@
+.shopstorecard {
+    background-color: #D3D3D3;
+    border: 2px solid 	#D3D3D3;
+    border-radius: 10px 10px 0 0 !important;
+    padding: 10px;
+
+}
+
+.storecardopacity{
+        border-radius: 10px !important;
+        -webkit-box-shadow: 5px 10px whitesmoke;
+        box-shadow: 1px 1px 13px -6px;
+        width: fit-content;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+.overlay {
+       /* background: #40a9ff5c !important; */
+       height: 100%;
+       width: 100%;
+       position: absolute;
+       z-index: 999;
+       top: 0;
+       left: 0;
+       /* background-color: rgb(0,0,0); */
+       background-color: rgba(0, 0, 0, 0) !important;
+       overflow-x: hidden !important;
+       -webkit-transition: 0.5s;
+       -o-transition: 0.5s;
+       /* transition: 0.5s; */
+       /* color: #337ab7; */
+       transition: opacity .35s ease !important;
+}
+
+.storecardopacity:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+  }
+
+
+  .button {
+    position: absolute;
+    width: 250px;
+    left: 0;
+    top: 100px;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: opacity .35s ease;
+    -o-transition: opacity .35s ease;
+    transition: opacity .35s ease;
+  }
+  
+  .button a {
+    width: 200px;
+    padding: 12px 48px;
+    text-align: center;
+    color: #37a99b;
+    /* border: solid 5px #37a99b; */
+    /* border-radius: 50px !important; */
+    z-index: 1;
+    font-size: large;
+    background: white;
+  }
+  
+  .storecardopacity:hover .button {
+    opacity: 1;
+  }
+
+  
+.storecardopacity img{
+        height: auto;
+        border-radius: 5px !important;
+}
+
+
+.ant-rate {
+    font-size: 14px;
+    font-variant: tabular-nums;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum';
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.65);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: unset;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 15px;
+    display: inline-block;
+    color: orange;
+    outline: none;
+    margin-left: 15px;
+}

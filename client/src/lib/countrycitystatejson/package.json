@@ -1,0 +1,57 @@
+{
+  "_from": "countrycitystatejson@^0.2.9",
+  "_id": "countrycitystatejson@0.2.9",
+  "_inBundle": false,
+  "_integrity": "sha512-ANBotyYkGajG7jViRLyxSe4zYX7Xtn3yucBS0GXiq3S576ckKud1U4h5ZOjudeE/ooOiEswdPhoNcQzHtRo9nw==",
+  "_location": "/countrycitystatejson",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "countrycitystatejson@^0.2.9",
+    "name": "countrycitystatejson",
+    "escapedName": "countrycitystatejson",
+    "rawSpec": "^0.2.9",
+    "saveSpec": null,
+    "fetchSpec": "^0.2.9"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/countrycitystatejson/-/countrycitystatejson-0.2.9.tgz",
+  "_shasum": "c1589dcd5e000d0e77180cdb2b9998064730ec9a",
+  "_spec": "countrycitystatejson@^0.2.9",
+  "_where": "C:\\Farzan\\pakjazba\\client",
+  "author": {
+    "name": "khkwan0@github.com"
+  },
+  "bugs": {
+    "url": "https://github.com/khkwan0/countryCityStateJson/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "countries-list": "^2.3.2",
+    "country-state-city": "0.0.5"
+  },
+  "deprecated": false,
+  "description": "A JSON Object containing Countries and their associated States/Provinces and cities.",
+  "homepage": "https://github.com/khkwan0/countryCityStateJson#readme",
+  "keywords": [
+    "country",
+    "city",
+    "state",
+    "json"
+  ],
+  "license": "GPL-3.0-or-later",
+  "main": "index.js",
+  "name": "countrycitystatejson",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khkwan0/countryCityStateJson.git"
+  },
+  "reveal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.9"
+}

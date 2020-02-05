@@ -1,0 +1,57 @@
+.detailpara{
+  font-size: 16px;
+  color: black;
+}
+
+.horizontaildetail{
+  width: 60%;
+  border-bottom: 2px solid #37A99B;
+  margin-left: 0;
+  border-top: 0;
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 12px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  /* margin: 5px 2px; */
+  border-radius: 50% !important;
+  margin-right: 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+      color: #236A4B ;
+}
+
+.fa-facebook {
+  background: black;
+  color: white;
+}
+
+.fa-twitter {
+  background: black;
+  color: white;
+}
+.fa-linkedin {
+  background: black;
+  color: white;
+}
+
+
+.Contactprofile {
+}
+
+.emailnphone {
+  MARGIN-TOP: 3PX;
+}
+
+/* new css */
+
+.ImageCard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}

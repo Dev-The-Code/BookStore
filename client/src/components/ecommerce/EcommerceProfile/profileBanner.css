@@ -1,0 +1,233 @@
+
+/*phone*/ 
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+.profileBanner img{
+    height:200px !important; 
+    width:100%;
+}
+
+}
+
+/*TABLETS*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .profileBanner img{
+        height:330px !important; 
+        width:100%;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .profileBanner img{
+        height:330px; 
+        width:100%;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .profileBanner img{
+        height:330px !important; 
+        width:100%;
+    }
+}
+
+@media screen 
+  and (device-width: 1536px) 
+  and (device-height: 2048px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) {
+    .profileBanner img{
+        height:330px; 
+        width:100%;
+    }
+}
+
+
+/*LAptops*/
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .profileBanner img{
+        height:330px; 
+        width:100%;
+    }
+}
+
+/*phone*/ 
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+.simpleBanner img{
+    height:250px !important; 
+    width:100%;
+}
+
+}
+
+/*TABLETS*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .simpleBanner img{
+        height:300px !important; 
+        width:100%;
+        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .simpleBanner img{
+        height:330px; 
+        width:100%;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .simpleBanner img{
+        height:210px !important; 
+        width:100%;
+    }
+}
+
+@media screen 
+  and (device-width: 1536px) 
+  and (device-height: 2048px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) {
+    .simpleBanner img{
+        height:330px; 
+        width:100%;
+    }
+}
+
+
+/*LAptops*/
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .simpleBanner img{
+        height:330px; 
+        width:100%;
+    }
+}
+
+/*Desktops*/
+@media screen and (min-width: 1400px) {
+  .simpleBanner img{
+    height:330px; 
+    width:100%;
+}
+}
+
+@media screen and (min-width: 1600px) {
+  .simpleBanner img{
+    height:330px; 
+    width:100%;
+}
+}
+
+@media screen and (min-width: 1900px) {
+  .simpleBanner img{
+    height:330px; 
+    width:100%;
+}
+}
+
+/*phone*/ 
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+.catalogeimage img{
+    height:300px !important; 
+    width:100%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+}
+
+/*TABLETS*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .catalogeimage img{
+        height:400px !important; 
+        width:100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .catalogeimage img{
+        height:330px; 
+        width:100%;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .catalogeimage img{
+        height:440px !important; 
+        width:100%;
+    }
+}
+
+@media screen 
+  and (device-width: 1536px) 
+  and (device-height: 2048px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) {
+    .catalogeimage img{
+        height:330px; 
+        width:100%;
+    }
+}
+
+
+/*LAptops*/
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .catalogeimage img{
+        height:330px; 
+        width:100%;
+    }
+}

@@ -1,0 +1,154 @@
+.ImageCard {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.07);
+    border-radius: 50px;
+  }
+
+.devCard{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding-top: 4%;
+    border-radius: 5px !important;
+    margin-bottom: 8%;
+}
+.iconDev1{
+    border-radius: 133px !important;
+    height: 60px;
+    width: 60px;
+    background-color: #6c1cff;
+    margin-left: 43%;
+    margin-bottom: 3%;
+}
+.iconDev2{
+    border-radius: 133px !important;
+    height: 60px;
+    width: 60px;
+    background-color: #ff4fc1;
+    margin-left: 43%;
+    margin-bottom: 3%;
+}
+.iconDev3{
+    border-radius: 133px !important;
+    height: 60px;
+    width: 60px;
+    background-color: #3dc8ff;
+    margin-left: 43%;
+    margin-bottom: 3%;
+}
+.iconDev4{
+    border-radius: 133px !important;
+    height: 60px;
+    width: 60px;
+    background-color: #ff8c35;
+    margin-left: 43%;
+    margin-bottom: 3%;
+}
+.iconDev5{
+    border-radius: 133px !important;
+    height: 60px;
+    width: 60px;
+    background-color: #4bd1ab;
+    margin-left: 43%;
+    margin-bottom: 3%;
+}
+.iconDev6{
+    border-radius: 133px !important;
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+    margin-left: 43%;
+    margin-bottom: 3%;
+}
+.iconDevImg{
+    height: 47px;
+    padding: 15% 0% 0% 0%;
+}
+.needPost-Head{
+    /* padding-bottom: 4%; */
+    margin: 0px;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    /* width: 300px;
+    height: 300px; */
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    /* position: relative; */
+    /* width: 100%;
+    height: 100%; */
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateX(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    /* position: absolute; */
+    /* width: 100%;
+    height: 100%; */
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    /* background-color: #bbb; */
+    color: black;
+  }
+  
+  .flip-card-back {
+    /* background-color: #2980b9; */
+    color: white;
+    height: 20px;
+    transform: rotateX(180deg);
+  }
+  .flip-card-back-child-dev1{
+    background-color: #6c1cff;
+    padding: 14% 0% 0% 0%;
+    height: 123px;
+    border-radius: 5px !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .flip-card-back-child-dev2{
+    padding: 14% 0% 0% 0%;
+    background-color: #ff4fc1;
+    height: 123px;
+    border-radius: 5px !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .flip-card-back-child-dev3{
+    padding: 14% 0% 0% 0%;
+    background-color: #3dc8ff;
+    height: 123px;
+    border-radius: 5px !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .flip-card-back-child-dev4{
+    padding: 14% 0% 0% 0%;
+    background-color: #ff8c35;
+    height: 123px;
+    border-radius: 5px !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .flip-card-back-child-dev5{
+    padding: 14% 0% 0% 0%;
+    background-color: #4bd1ab;
+    height: 123px;
+    border-radius: 5px !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  .flip-card-back-child-dev6{
+    padding: 14% 0% 0% 0%;
+    background-color: blue;
+    height: 123px;
+    border-radius: 5px !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+

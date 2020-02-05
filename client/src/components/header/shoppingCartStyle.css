@@ -1,0 +1,12 @@
+.shoppingCart {
+    color:rgb(205, 59, 39);
+    padding: 1px !important;
+    font-size: 30px !important;
+  }
+  .shoppingBadges{
+    display: inline;
+    font-size: 16px !important;
+    background-color: white !important;
+    color: black !important;
+    border-radius: 100%;
+  }

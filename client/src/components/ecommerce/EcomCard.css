@@ -1,0 +1,36 @@
+.EcomCard {
+  clear: both;
+  margin-bottom: 25px;
+  margin-top: 0;
+  padding: 0;
+  background-color: white;
+  border: 2px solid #e8e8e8;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.ecombox-content {
+  background-color: #whitesmoke;
+  color: inherit;
+  padding: 25px;
+  border-color: #e7eaec;
+  border-image: none;
+  border-style: solid solid none;
+  border-width: 1px 0;
+}
+
+.ecomproduct-box {
+  padding: 0;
+  border: 1px solid #e7eaec;
+}
+.shopcard-imitation {
+    margin-bottom: 20px;
+    padding: 0px 0px;
+}
+.shopcard-imitation .card2 img {
+    width: 100%;
+    height: 235px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    /* height: 300px; */
+}

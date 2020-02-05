@@ -1,0 +1,31 @@
+
+.div{
+    margin-top: 110px;
+    font-family: 'Crimson Text, serif'
+}
+.cart{
+    font-size: 30px;
+}
+.checkoutbtn{
+    background-color: rgb(55, 169, 155);
+    color: white;
+    text-decoration: none;
+}
+.cartDetail{
+    list-style-type: none;    
+    font-size: 20px;
+    font-weight: bold;
+    /* padding: 15px; */
+}
+.cartPrice{
+    font-size: 20px;
+}
+.panel-body{    
+    border: 1px solid #80808052
+}
+.imgClass{
+    max-width: 55%
+}
+.modalSucces{
+    text-align: "center" !important
+}

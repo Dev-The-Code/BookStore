@@ -1,0 +1,120 @@
+/*==================
+	POST_BUSINESS
+====================*/
+.main_c_panel{
+	/*background: url(../images/default/noise-bg.png) repeat 0 0;*/
+    font-size: 34px;
+    line-height: 26px;
+    /*text-shadow: 2px 2px 0 #fff;*/
+    font-family: 'Crimson Text', serif !important;
+    padding: 15px;
+}
+.bold_c_text{
+	font-weight: bold;
+}
+.font-size_c{
+	font-size:17px;
+}
+.margin_font_location{
+	margin:10px;
+	font-size:16px;
+}
+.formRadius{
+	border-radius: 25px !important;
+	boxShadow: 0 2px 5px 0 rgba(0,0,0,.07),
+}
+.topRadius{
+	border-top-left-radius: 25px !important;
+	border-top-right-radius: 25px !important;
+}
+.bottomRadius{
+	border-bottom-left-radius: 25px !important;
+	border-bottom-right-radius: 25px !important;
+}
+.hrLineStyle{
+	display: block;
+    border: 0;
+    border-top: 1px solid black;
+    width: 95%;
+    border-top-width: 1px;
+}
+
+
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+    .bannerButton{
+      height: 190px;
+      width: 300px;
+      border: 1px dotted black;
+    }
+
+}
+
+/*TABLETS*/
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.bannerButton{
+		height: 190px;
+		width: 705px;
+		border: 1px dotted black;
+	  }
+    
+}
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.bannerButton{
+		height: 190px;
+		width: 150px;
+		border: 1px dotted black;
+	  }
+    
+}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.bannerButton{
+		height: 190px;
+		width: 150px;
+		border: 1px dotted black;
+	  }
+    
+}
+
+@media screen 
+  and (device-width: 1536px) 
+  and (device-height: 2048px) 
+  and (-webkit-min-device-pixel-ratio: 1.331) 
+  and (-webkit-max-device-pixel-ratio: 1.332) {
+	.bannerButton{
+		height: 190px;
+		width: 150px;
+		border: 1px dotted black;
+	  }
+    
+}
+
+
+/*desktops*/
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+	.bannerButton{
+		height: 175px;
+		width: 100px;
+		border: 1px dotted black;
+	  }
+    
+}
+
+
