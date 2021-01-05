@@ -6,7 +6,7 @@
     "@callstack/async-storage": "^1.1.0",
     "antd": "^3.7.0",
     "antd-init": "^2.0.6",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "google-maps-react": "^2.0.2",
     "html2canvas": "^1.0.0-alpha.12",
     "ip": "^1.1.5",
