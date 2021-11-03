@@ -51,7 +51,7 @@
     "stripe": "^6.15.2",
     "superagent": "^3.8.3",
     "underscore": "^1.9.1",
-    "validator": "^10.4.0",
+    "validator": "^13.7.0",
     "winston": "^3.1.0"
   },
   "devDependencies": {
